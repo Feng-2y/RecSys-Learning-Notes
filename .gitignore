@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 项目自定义：数据集、模型权重
+*.csv
+*.parquet
+*.pth
+*.ckpt
+*.bin
+datasets/
+weights/
+logs/
